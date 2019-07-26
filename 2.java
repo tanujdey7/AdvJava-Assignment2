@@ -13,6 +13,7 @@ class demo extends JFrame implements ActionListener{
         demo() {
             r1.setBounds(50,50,100,20);
             r2.setBounds(50,100,100,20);
+            r1.setSelected(true);
             bg.add(r1);
             bg.add(r2);
             jf.add(r1);
