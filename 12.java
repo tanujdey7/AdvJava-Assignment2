@@ -1,7 +1,6 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
 import java.awt.event.*;
 import java.awt.*;
 class demo implements ActionListener {

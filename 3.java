@@ -24,6 +24,7 @@ class demo {
         jf.setDefaultCloseOperation(jf.EXIT_ON_CLOSE);
 
         b.addActionListener(new ActionListener() {
+          
             @Override
             public void actionPerformed(ActionEvent ae) {
                 if(list.getSelectedValue() == "a" || list.getSelectedValue() == "e" || list.getSelectedValue() == "i" || list.getSelectedValue() == "o" || list.getSelectedValue() == "u") {
